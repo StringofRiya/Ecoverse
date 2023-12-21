@@ -1,0 +1,6 @@
+Monday:10h00,Berea
+Tuesday:13h00,Selborne
+Wednesday:12h00,Cambridge
+Thursday:11h00,Vincent
+Friday: 12h00,Nahoon
+

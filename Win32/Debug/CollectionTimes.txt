@@ -1,0 +1,8 @@
+Monday:10h00,Berea;12h00,Amalinda
+Tuesday:10h00,Braelyn;11h00,Beacon Bay;13h00,Selborne
+Wednesday:12h00,Cambridge
+Thursday:11h00,Vincent;14h00,Southernwood
+Friday:12h00,Nahoon
+
+
+

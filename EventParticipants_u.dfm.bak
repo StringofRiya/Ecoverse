@@ -1,0 +1,82 @@
+object frmParticipants: TfrmParticipants
+  Left = 0
+  Top = 0
+  Caption = 'frmParticipants'
+  ClientHeight = 428
+  ClientWidth = 727
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object dbgUsers: TDBGrid
+    Left = 32
+    Top = 24
+    Width = 665
+    Height = 81
+    DataSource = dmEcoverse.dsrUsers
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'User_ID'
+        Width = 50
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'FirstName'
+        Width = 235
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Surname'
+        Width = 306
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'E-mail'
+        Width = 120
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Password'
+        Visible = False
+      end
+      item
+        Expanded = False
+        FieldName = 'Suburb'
+        Width = 90
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Events'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Donations'
+        Width = 240
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'Points'
+        Visible = True
+      end>
+  end
+end
